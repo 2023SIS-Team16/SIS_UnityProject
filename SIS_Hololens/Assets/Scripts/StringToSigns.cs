@@ -17,6 +17,7 @@ public class StringToSigns : MonoBehaviour
     
     [SerializeField] private Image imageToReplace;
     [SerializeField] private TMP_InputField inputField;
+    [SerializeField] private Slider slider;
     
     
     
@@ -29,12 +30,14 @@ public class StringToSigns : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (slider)
+        {
+            _timeBuffer = (0.5f + ((float)slider.value) * 3);
+        }
+        
         if (Input.GetKeyUp("q"))
         {
-            _characterQueue.Clear();
-            String tempString = inputField.text.ToLower();
-            ProcessString(tempString);
-            _timer = 0;
+            SetQueue();
         }
 
         if (_characterQueue.Count > 0 && _timer <= 0)
@@ -76,5 +79,18 @@ public class StringToSigns : MonoBehaviour
         {
             _charDictionary.Add(charSO.getCharacter(), charSO);
         }
+    }
+
+    public float GetTimeBuffer()
+    {
+        return _timeBuffer;
+    }
+
+    public void SetQueue()
+    {
+        _characterQueue.Clear();
+        String tempString = inputField.text.ToLower();
+        ProcessString(tempString);
+        _timer = 0;
     }
 }
