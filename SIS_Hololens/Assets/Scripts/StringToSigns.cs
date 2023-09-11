@@ -6,6 +6,7 @@ using UnityEngine;
 public class StringToSigns : MonoBehaviour
 {
     private Hashtable charToData;
+    public ScriptableObject[] test;
     
     // Start is called before the first frame update
     void Start()
@@ -25,5 +26,10 @@ public class StringToSigns : MonoBehaviour
         {
             
         }
+    }
+
+    private void InitialiseHashTable()
+    {
+        
     }
 }

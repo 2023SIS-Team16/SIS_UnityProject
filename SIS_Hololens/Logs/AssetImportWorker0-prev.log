@@ -15,7 +15,7 @@ C:/Users/lachl/Dev/SIS_UnityProject/SIS_Hololens
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-51369
+52526
 Successfully changed project path to: C:/Users/lachl/Dev/SIS_UnityProject/SIS_Hololens
 C:/Users/lachl/Dev/SIS_UnityProject/SIS_Hololens
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/lachl/Dev/SIS_UnityProject/SIS_Hololens
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [3372] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1692211580 [EditorId] 1692211580 [Version] 1048832 [Id] WindowsEditor(7,LG-Desktop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [9860] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2531239998 [EditorId] 2531239998 [Version] 1048832 [Id] WindowsEditor(7,LG-Desktop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [3372] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1692211580 [EditorId] 1692211580 [Version] 1048832 [Id] WindowsEditor(7,LG-Desktop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [9860] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2531239998 [EditorId] 2531239998 [Version] 1048832 [Id] WindowsEditor(7,LG-Desktop) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 24.47 ms, found 12 plugins.
+Refreshing native plugins compatible for Editor in 29.38 ms, found 12 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.8f1 (b5eafc012955)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/Resources/UnitySubsystems
@@ -70,44 +70,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56328
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56388
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.010169 seconds.
-- Loaded All Assemblies, in  0.323 seconds
+Registered in 0.011295 seconds.
+- Loaded All Assemblies, in  0.360 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.220 seconds
-Domain Reload Profiling: 541ms
-	BeginReloadAssembly (104ms)
+- Finished resetting the current domain, in  0.242 seconds
+Domain Reload Profiling: 600ms
+	BeginReloadAssembly (115ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (31ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (57ms)
-	LoadAllAssembliesAndSetupDomain (119ms)
-		LoadAssemblies (101ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (65ms)
+	LoadAllAssembliesAndSetupDomain (130ms)
+		LoadAssemblies (112ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (118ms)
-			TypeCache.Refresh (116ms)
-				TypeCache.ScanAssembly (104ms)
+		AnalyzeDomain (129ms)
+			TypeCache.Refresh (127ms)
+				TypeCache.ScanAssembly (115ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (221ms)
+	FinalizeReload (243ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (169ms)
+		SetupLoadedEditorAssemblies (187ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (6ms)
+			SetLoadedEditorAssemblies (8ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (111ms)
-			ProcessInitializeOnLoadMethodAttributes (41ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (123ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -116,8 +116,8 @@ Domain Reload Profiling: 541ms
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.704 seconds
-Refreshing native plugins compatible for Editor in 15.18 ms, found 12 plugins.
+- Loaded All Assemblies, in  0.760 seconds
+Refreshing native plugins compatible for Editor in 14.46 ms, found 12 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
@@ -133,47 +133,47 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.852 seconds
-Domain Reload Profiling: 1550ms
-	BeginReloadAssembly (132ms)
+- Finished resetting the current domain, in  0.936 seconds
+Domain Reload Profiling: 1690ms
+	BeginReloadAssembly (147ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (20ms)
-	RebuildCommonClasses (31ms)
-	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (40ms)
-	LoadAllAssembliesAndSetupDomain (484ms)
-		LoadAssemblies (340ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (39ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (508ms)
+		LoadAssemblies (367ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (220ms)
-			TypeCache.Refresh (182ms)
-				TypeCache.ScanAssembly (160ms)
-			ScanForSourceGeneratedMonoScriptInfo (28ms)
+		AnalyzeDomain (229ms)
+			TypeCache.Refresh (189ms)
+				TypeCache.ScanAssembly (165ms)
+			ScanForSourceGeneratedMonoScriptInfo (31ms)
 			ResolveRequiredComponents (8ms)
-	FinalizeReload (853ms)
+	FinalizeReload (936ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (696ms)
+		SetupLoadedEditorAssemblies (772ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (5ms)
+			SetLoadedEditorAssemblies (4ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (100ms)
-			ProcessInitializeOnLoadAttributes (531ms)
-			ProcessInitializeOnLoadMethodAttributes (42ms)
-			AfterProcessingInitializeOnLoad (11ms)
+			BeforeProcessingInitializeOnLoad (97ms)
+			ProcessInitializeOnLoadAttributes (609ms)
+			ProcessInitializeOnLoadMethodAttributes (47ms)
+			AfterProcessingInitializeOnLoad (9ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (6ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 16.54 ms, found 12 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 14.37 ms, found 12 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5161 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 88 unused Assets / (82.8 KB). Loaded Objects now: 5594.
-Memory consumption went from 169.1 MB to 169.0 MB.
-Total: 4.222600 ms (FindLiveObjects: 0.557700 ms CreateObjectMapping: 0.180300 ms MarkObjects: 3.303900 ms  DeleteObjects: 0.179900 ms)
+Unloading 5163 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 88 unused Assets / (82.9 KB). Loaded Objects now: 5596.
+Memory consumption went from 169.2 MB to 169.1 MB.
+Total: 7.961300 ms (FindLiveObjects: 0.731300 ms CreateObjectMapping: 0.279700 ms MarkObjects: 6.699900 ms  DeleteObjects: 0.248400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -190,89 +190,729 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 7823.957206 seconds.
-  path: Assets
-  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a4fe85251aa2e89732c359432baa2c3') in 0.002319 seconds
+  Time since last request: 77732.559619 seconds.
+  path: Assets/Images/l_image.png
+  artifactKey: Guid(739d861c12798034dadc26c0d5cd79fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/l_image.png using Guid(739d861c12798034dadc26c0d5cd79fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '299250409dbb9a4c8ba2a6d5a33be814') in 0.060944 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Images/w_image.png
+  artifactKey: Guid(a07c2e49abcc2da488a11d22b76c1a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/w_image.png using Guid(a07c2e49abcc2da488a11d22b76c1a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c3a13f0c01ac075abce9b02c1697ce8') in 0.020341 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Images/c_image.png
+  artifactKey: Guid(1bfb9617054d98845a9fcea76ae03d2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/c_image.png using Guid(1bfb9617054d98845a9fcea76ae03d2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '735454b943d8b99c4c87a12e73a4967d') in 0.019827 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Images/e_image.png
+  artifactKey: Guid(2f142eccabff636468bf4d3a45ae0bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/e_image.png using Guid(2f142eccabff636468bf4d3a45ae0bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfe7c2f6fdcccb7a962f8747c7c85c97') in 0.022015 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Images/d_image.png
+  artifactKey: Guid(37662d77f0940b94da05003843d5c0ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/d_image.png using Guid(37662d77f0940b94da05003843d5c0ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e050599d75561828834b33921acb5b28') in 0.022193 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Images/y_image.png
+  artifactKey: Guid(49e555e9eba00844f84cc8b540f90312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/y_image.png using Guid(49e555e9eba00844f84cc8b540f90312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '236867766ec285f6fd510290fc06ace1') in 0.018794 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Images/q_image.png
+  artifactKey: Guid(d37324a0aa569414587b207a73ee3836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/q_image.png using Guid(d37324a0aa569414587b207a73ee3836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3def7252eadc598174e5f5ad6a8c78f8') in 0.020032 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Images/o_image.png
+  artifactKey: Guid(61ae4b3aca2c4694494a6cdfb132e189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/o_image.png using Guid(61ae4b3aca2c4694494a6cdfb132e189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '819be5229c52e836104663a88fb0be04') in 0.018104 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 27.769672 seconds.
+  path: Assets/Images/b_image.png
+  artifactKey: Guid(cc8bba139f67f844baa28eedb468fe4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/b_image.png using Guid(cc8bba139f67f844baa28eedb468fe4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed7ce193d6fcb606f673e99f747d5dc4') in 0.062163 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Images/h_image.png
+  artifactKey: Guid(d7429b6494b7f5a4cb9d4da339a9b836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/h_image.png using Guid(d7429b6494b7f5a4cb9d4da339a9b836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cc9e68150148d9e8c8fd2ed9d4a4473') in 0.028598 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Images/w_image.png
+  artifactKey: Guid(a07c2e49abcc2da488a11d22b76c1a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/w_image.png using Guid(a07c2e49abcc2da488a11d22b76c1a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9e35c7516fef0d95db415e124a286b8') in 0.028389 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Images/g_image.png
+  artifactKey: Guid(9bc5f52a80fdf8e4b936d3d8211fda08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/g_image.png using Guid(9bc5f52a80fdf8e4b936d3d8211fda08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f80b1c02ce8b1259b29ec1555a2860b') in 0.026715 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Images/m_image.png
+  artifactKey: Guid(db2319bedfd181a46a19a3584b1ec487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/m_image.png using Guid(db2319bedfd181a46a19a3584b1ec487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7412baa2919a5c069134068c0374f56e') in 0.028539 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Images/j_image.png
+  artifactKey: Guid(fab56a01dc8404449999e71f71762cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/j_image.png using Guid(fab56a01dc8404449999e71f71762cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b90e6b5f027dd2c9557f7a27a052723e') in 0.026848 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Images/z_image.png
+  artifactKey: Guid(9497a404161eec34bb950ec7e2af9b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/z_image.png using Guid(9497a404161eec34bb950ec7e2af9b3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c7bdf4780b4721262a66ad5b25de1b5') in 0.027150 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Images/q_image.png
+  artifactKey: Guid(d37324a0aa569414587b207a73ee3836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/q_image.png using Guid(d37324a0aa569414587b207a73ee3836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c236dabc9224ed6b9eee3992834cf26') in 0.030550 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2999.739031 seconds.
+  path: Assets/Scripts/ScriptableObjects/a_Sign.asset
+  artifactKey: Guid(e7b8f94e29f14f74aa5f919ad9b9fd45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScriptableObjects/a_Sign.asset using Guid(e7b8f94e29f14f74aa5f919ad9b9fd45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36dce6c69c87776a7d08e0c3c9e01d3e') in 0.002460 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 17.707264 seconds.
+  path: Assets/Scripts/ScriptableObjects/a_Sign 1.asset
+  artifactKey: Guid(887946a4b143c5140a08cae96457e952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScriptableObjects/a_Sign 1.asset using Guid(887946a4b143c5140a08cae96457e952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53b8069c1db4c07f42b3ea6001cb4880') in 0.001483 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 11.439362 seconds.
+  path: Assets/Scripts/ScriptableObjects/b_Sign.asset
+  artifactKey: Guid(887946a4b143c5140a08cae96457e952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScriptableObjects/b_Sign.asset using Guid(887946a4b143c5140a08cae96457e952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bc4bdb1a1891e84c9c55cd9c647c626') in 0.001784 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 48.855119 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(06c7c148bb8cf034d965999edfe53c8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(06c7c148bb8cf034d965999edfe53c8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd404a4b6569fba4f320b575e502aafa4') in 0.000542 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 3.241414 seconds.
-  path: Assets/Scripts.cs
-  artifactKey: Guid(6b5ecc583ac23e74ca064b6e6cf03be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts.cs using Guid(6b5ecc583ac23e74ca064b6e6cf03be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2818a9d48754c2e72572f3edd556908') in 0.000525 seconds
+  Time since last request: 25.145241 seconds.
+  path: Assets/Scripts/ScriptableObjects/b_Sign.asset
+  artifactKey: Guid(887946a4b143c5140a08cae96457e952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScriptableObjects/b_Sign.asset using Guid(887946a4b143c5140a08cae96457e952) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7892d412b1f147c3e84c256ef1f66c1d') in 0.001373 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 9.137884 seconds.
+  path: Assets/Scripts/ScriptableObjects/c_Sign.asset
+  artifactKey: Guid(c8575e3494a8b4c41ad31f597851195c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScriptableObjects/c_Sign.asset using Guid(c8575e3494a8b4c41ad31f597851195c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dd22dc9faf0644706e93fa72f824e58') in 0.001397 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.470153 seconds.
+  path: Assets/Scripts/ScriptableObjects/b_Sign 1.asset
+  artifactKey: Guid(84aa25a44aeb15d469540b51add5cbeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScriptableObjects/b_Sign 1.asset using Guid(84aa25a44aeb15d469540b51add5cbeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f77e959c4285c84919c6bda2c5dba1bc') in 0.001355 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 11.685411 seconds.
+  path: Assets/Scripts/ScriptableObjects/d_Sign.asset
+  artifactKey: Guid(84aa25a44aeb15d469540b51add5cbeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScriptableObjects/d_Sign.asset using Guid(84aa25a44aeb15d469540b51add5cbeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1e5aba333a49feca56a19c3b594ec63') in 0.001382 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.565046 seconds.
+  path: Assets/Scripts/ScriptableObjects/b_Sign 1.asset
+  artifactKey: Guid(f05578f522787984f84f4a9f81dcaeb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScriptableObjects/b_Sign 1.asset using Guid(f05578f522787984f84f4a9f81dcaeb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b45022547d48235d25fb5c792e48cf5') in 0.001243 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 7.875129 seconds.
+  path: Assets/Scripts/ScriptableObjects/e_Sign.asset
+  artifactKey: Guid(f05578f522787984f84f4a9f81dcaeb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScriptableObjects/e_Sign.asset using Guid(f05578f522787984f84f4a9f81dcaeb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2364679d7d76f7eb410fa2e543c5a0b') in 0.001367 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.907928 seconds.
+  path: Assets/Scripts/ScriptableObjects/b_Sign 1.asset
+  artifactKey: Guid(a2af7f425b9607141aa3aac9ae3b9c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScriptableObjects/b_Sign 1.asset using Guid(a2af7f425b9607141aa3aac9ae3b9c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf57aa15d72c9c2ec87788f3e2efa142') in 0.001353 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 10.108651 seconds.
+  path: Assets/Scripts/ScriptableObjects/f_Sign.asset
+  artifactKey: Guid(a2af7f425b9607141aa3aac9ae3b9c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScriptableObjects/f_Sign.asset using Guid(a2af7f425b9607141aa3aac9ae3b9c24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aefd8229376c3c75aab1a38b046a9328') in 0.001520 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 27.030509 seconds.
+  path: Assets/Scripts/ScriptableObjects/b_Sign 1.asset
+  artifactKey: Guid(0b3d6201d55cb554f9c1824ebe6e8765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScriptableObjects/b_Sign 1.asset using Guid(0b3d6201d55cb554f9c1824ebe6e8765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da46b684879e2b221fd0a84d16c0f584') in 0.001327 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 10.458990 seconds.
+  path: Assets/Scripts/ScriptableObjects/g_Sign.asset
+  artifactKey: Guid(0b3d6201d55cb554f9c1824ebe6e8765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScriptableObjects/g_Sign.asset using Guid(0b3d6201d55cb554f9c1824ebe6e8765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50c4d53e0110c05da99d1ee76c06a9df') in 0.001673 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.176153 seconds.
+  path: Assets/Scripts/ScriptableObjects/b_Sign 1.asset
+  artifactKey: Guid(a591d7473820ecd42978fe781abd5fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScriptableObjects/b_Sign 1.asset using Guid(a591d7473820ecd42978fe781abd5fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef65bed7e4c22fbbffc69892762d22cf') in 0.001310 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 6.649371 seconds.
+  path: Assets/Scripts/ScriptableObjects/h_Sign 1.asset
+  artifactKey: Guid(a591d7473820ecd42978fe781abd5fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScriptableObjects/h_Sign 1.asset using Guid(a591d7473820ecd42978fe781abd5fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58e9779592afad3e756658cdeeaefb5a') in 0.001402 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 5.839351 seconds.
+  path: Assets/Scripts/ScriptableObjects/h_Sign.asset
+  artifactKey: Guid(a591d7473820ecd42978fe781abd5fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScriptableObjects/h_Sign.asset using Guid(a591d7473820ecd42978fe781abd5fe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df415152e636c09bf0f3366a5cefee03') in 0.001764 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 19.602326 seconds.
+  path: Assets/Scripts/ScriptableObjects/b_Sign 1.asset
+  artifactKey: Guid(95e98e0890fcce645b8504d002b2a48d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScriptableObjects/b_Sign 1.asset using Guid(95e98e0890fcce645b8504d002b2a48d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '045ef71eb8ad8450217f1221d2acb70c') in 0.001324 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 9.964378 seconds.
+  path: Assets/Scripts/ScriptableObjects/i_Sign.asset
+  artifactKey: Guid(95e98e0890fcce645b8504d002b2a48d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScriptableObjects/i_Sign.asset using Guid(95e98e0890fcce645b8504d002b2a48d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43df3e4d5a362545ac196cc84376d5d4') in 0.001297 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.786604 seconds.
+  path: Assets/Scripts/ScriptableObjects/b_Sign 1.asset
+  artifactKey: Guid(e43358f7a8a3fda4ea674fcb4d1a74f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScriptableObjects/b_Sign 1.asset using Guid(e43358f7a8a3fda4ea674fcb4d1a74f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96a733c95d8bbf53a76222bab2106917') in 0.001417 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 16.318623 seconds.
+  path: Assets/Scripts/ScriptableObjects/j_Sign.asset
+  artifactKey: Guid(e43358f7a8a3fda4ea674fcb4d1a74f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScriptableObjects/j_Sign.asset using Guid(e43358f7a8a3fda4ea674fcb4d1a74f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16b45e74c1879f440f25a94ff152f3c9') in 0.001378 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.634046 seconds.
+  path: Assets/Scripts/ScriptableObjects/b_Sign 1.asset
+  artifactKey: Guid(95d86e6d457a01f43941c5f5b88abf3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScriptableObjects/b_Sign 1.asset using Guid(95d86e6d457a01f43941c5f5b88abf3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2578ceb8022c8752749dbd556dee606') in 0.001634 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 9.486787 seconds.
+  path: Assets/Scripts/ScriptableObjects/k_Sign.asset
+  artifactKey: Guid(95d86e6d457a01f43941c5f5b88abf3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScriptableObjects/k_Sign.asset using Guid(95d86e6d457a01f43941c5f5b88abf3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ad9aea77ee0c056362fb199beeabc84') in 0.001573 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.213271 seconds.
+  path: Assets/Scripts/ScriptableObjects/b_Sign 1.asset
+  artifactKey: Guid(ecfa33fe1112020489a283e256c60d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScriptableObjects/b_Sign 1.asset using Guid(ecfa33fe1112020489a283e256c60d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c59ad6a5487db8ef04267f83610a2cc1') in 0.001293 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 52.699117 seconds.
+  path: Assets/Scripts/ScriptableObjects/l_Sign.asset
+  artifactKey: Guid(ecfa33fe1112020489a283e256c60d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScriptableObjects/l_Sign.asset using Guid(ecfa33fe1112020489a283e256c60d8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ea6e888e962638e8ab3f3c28cb2d756') in 0.001320 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.925617 seconds.
+  path: Assets/Scripts/ScriptableObjects/b_Sign 1.asset
+  artifactKey: Guid(790ee28dc81be6a4ba19f56179045517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScriptableObjects/b_Sign 1.asset using Guid(790ee28dc81be6a4ba19f56179045517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26b8cc7c8779ec1aba06f715d368b5b8') in 0.001411 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 8.209029 seconds.
+  path: Assets/Scripts/ScriptableObjects/m_Sign.asset
+  artifactKey: Guid(790ee28dc81be6a4ba19f56179045517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScriptableObjects/m_Sign.asset using Guid(790ee28dc81be6a4ba19f56179045517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '873b274438546f9690d1d8c2adb676ea') in 0.001961 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.571573 seconds.
+  path: Assets/Scripts/ScriptableObjects/b_Sign 1.asset
+  artifactKey: Guid(72e47868bbc621c46ba6e9cc8ca48a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScriptableObjects/b_Sign 1.asset using Guid(72e47868bbc621c46ba6e9cc8ca48a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd9ac5d5ce6b74cb66896331bdcae58c') in 0.001722 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 7.456092 seconds.
+  path: Assets/Scripts/ScriptableObjects/n_Sign.asset
+  artifactKey: Guid(72e47868bbc621c46ba6e9cc8ca48a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScriptableObjects/n_Sign.asset using Guid(72e47868bbc621c46ba6e9cc8ca48a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ab7fb2e72ecfc2fab3ebc5dd52ca8a1') in 0.001963 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.080355 seconds.
+  path: Assets/Scripts/ScriptableObjects/b_Sign 1.asset
+  artifactKey: Guid(aee8eec3d843d274f80e536d28bfc9bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScriptableObjects/b_Sign 1.asset using Guid(aee8eec3d843d274f80e536d28bfc9bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd07a5e8100dc6cbb0f4930860f56d842') in 0.001624 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 7.583600 seconds.
+  path: Assets/Scripts/ScriptableObjects/o_Sign.asset
+  artifactKey: Guid(aee8eec3d843d274f80e536d28bfc9bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScriptableObjects/o_Sign.asset using Guid(aee8eec3d843d274f80e536d28bfc9bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '340f684f8fb5acaeaabf22ea2ef0be34') in 0.001631 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.889171 seconds.
+  path: Assets/Scripts/ScriptableObjects/b_Sign 1.asset
+  artifactKey: Guid(737dd1360b9ed0b49bcb9355cb454c6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScriptableObjects/b_Sign 1.asset using Guid(737dd1360b9ed0b49bcb9355cb454c6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58373530b6765026a47a5462fff6e5a1') in 0.001356 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 7.101981 seconds.
+  path: Assets/Scripts/ScriptableObjects/p_Sign.asset
+  artifactKey: Guid(737dd1360b9ed0b49bcb9355cb454c6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScriptableObjects/p_Sign.asset using Guid(737dd1360b9ed0b49bcb9355cb454c6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '157302146fddc62d7337c3f35cac494a') in 0.001998 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.050895 seconds.
+  path: Assets/Scripts/ScriptableObjects/b_Sign 1.asset
+  artifactKey: Guid(7fc56bab6b54f7f49b9e03d698e32252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScriptableObjects/b_Sign 1.asset using Guid(7fc56bab6b54f7f49b9e03d698e32252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb2aec9c543c49ad484c1ad74f4c87e5') in 0.001265 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 6.957604 seconds.
+  path: Assets/Scripts/ScriptableObjects/q_Sign.asset
+  artifactKey: Guid(7fc56bab6b54f7f49b9e03d698e32252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScriptableObjects/q_Sign.asset using Guid(7fc56bab6b54f7f49b9e03d698e32252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1022ca0f847141f78f62ea61f366781') in 0.001463 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.457932 seconds.
+  path: Assets/Scripts/ScriptableObjects/b_Sign 1.asset
+  artifactKey: Guid(ff5ec944d33c53e4988ce780a268e30b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScriptableObjects/b_Sign 1.asset using Guid(ff5ec944d33c53e4988ce780a268e30b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3809f84c6e811e6ab43aaafb1a6a9298') in 0.001239 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 8.414243 seconds.
+  path: Assets/Scripts/ScriptableObjects/r_Sign.asset
+  artifactKey: Guid(ff5ec944d33c53e4988ce780a268e30b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScriptableObjects/r_Sign.asset using Guid(ff5ec944d33c53e4988ce780a268e30b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81ba3898060448ea7c64950872c162e6') in 0.001474 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.547027 seconds.
+  path: Assets/Scripts/ScriptableObjects/b_Sign 1.asset
+  artifactKey: Guid(d93ba608f6c168948bf2a25d62f654d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScriptableObjects/b_Sign 1.asset using Guid(d93ba608f6c168948bf2a25d62f654d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '145efcb78995a74e56d8943c4e9a7b33') in 0.001298 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 7.844013 seconds.
+  path: Assets/Scripts/ScriptableObjects/s_Sign.asset
+  artifactKey: Guid(d93ba608f6c168948bf2a25d62f654d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScriptableObjects/s_Sign.asset using Guid(d93ba608f6c168948bf2a25d62f654d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccc93e6671377323eeacd5ee9c5cb072') in 0.001301 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.616980 seconds.
+  path: Assets/Scripts/ScriptableObjects/b_Sign 1.asset
+  artifactKey: Guid(7819dc2b987c0d44d95953294b5ae0d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScriptableObjects/b_Sign 1.asset using Guid(7819dc2b987c0d44d95953294b5ae0d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31b5df1bb052c8bfbc672d9db857ebe2') in 0.001383 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 8.452567 seconds.
+  path: Assets/Scripts/ScriptableObjects/t_Sign.asset
+  artifactKey: Guid(7819dc2b987c0d44d95953294b5ae0d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScriptableObjects/t_Sign.asset using Guid(7819dc2b987c0d44d95953294b5ae0d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ba0154abc9f73968542dee129b04239') in 0.001433 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.705051 seconds.
+  path: Assets/Scripts/ScriptableObjects/b_Sign 1.asset
+  artifactKey: Guid(878814a5429b1ef42b6a292d81d2f95a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScriptableObjects/b_Sign 1.asset using Guid(878814a5429b1ef42b6a292d81d2f95a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b8690962e0a003151e187d6f34b5631') in 0.001895 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 8.299468 seconds.
+  path: Assets/Scripts/ScriptableObjects/u_Sign.asset
+  artifactKey: Guid(878814a5429b1ef42b6a292d81d2f95a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScriptableObjects/u_Sign.asset using Guid(878814a5429b1ef42b6a292d81d2f95a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f69a2dcaa080afd71ca5b48946a800c0') in 0.001322 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 4.178667 seconds.
+  path: Assets/Scripts/ScriptableObjects/b_Sign 1.asset
+  artifactKey: Guid(5c493c66b86ae0b4fbfa277e1595b820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScriptableObjects/b_Sign 1.asset using Guid(5c493c66b86ae0b4fbfa277e1595b820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36804930ca0d14e33a64ece3a0e9804a') in 0.001712 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 7.702401 seconds.
+  path: Assets/Scripts/ScriptableObjects/v_Sign.asset
+  artifactKey: Guid(5c493c66b86ae0b4fbfa277e1595b820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScriptableObjects/v_Sign.asset using Guid(5c493c66b86ae0b4fbfa277e1595b820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bcc9f7ed48f3623bfaa26e713c9a273') in 0.001438 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.128043 seconds.
+  path: Assets/Scripts/ScriptableObjects/b_Sign 1.asset
+  artifactKey: Guid(88b27cfac9d523f46b86408ceeefa7ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScriptableObjects/b_Sign 1.asset using Guid(88b27cfac9d523f46b86408ceeefa7ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '488f4a67acb08c2d0cfcbea842e77b87') in 0.001504 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 6.270212 seconds.
+  path: Assets/Scripts/ScriptableObjects/w_Sign.asset
+  artifactKey: Guid(88b27cfac9d523f46b86408ceeefa7ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScriptableObjects/w_Sign.asset using Guid(88b27cfac9d523f46b86408ceeefa7ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c019827bf4b026886e5d9debe094f15') in 0.001409 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 30.941893 seconds.
+  path: Assets/Scripts/ScriptableObjects/b_Sign 1.asset
+  artifactKey: Guid(a63c285760a9a54499ba96efbe9f744d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScriptableObjects/b_Sign 1.asset using Guid(a63c285760a9a54499ba96efbe9f744d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fd77139e903a7241289a959c7f9b267') in 0.001313 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 7.193593 seconds.
+  path: Assets/Scripts/ScriptableObjects/x_Sign.asset
+  artifactKey: Guid(a63c285760a9a54499ba96efbe9f744d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScriptableObjects/x_Sign.asset using Guid(a63c285760a9a54499ba96efbe9f744d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '789a76e542abdaba32ba6cbbe2860264') in 0.001285 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.636064 seconds.
+  path: Assets/Scripts/ScriptableObjects/b_Sign 1.asset
+  artifactKey: Guid(03d4d2fea58e6b344b5e76eb5e178959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScriptableObjects/b_Sign 1.asset using Guid(03d4d2fea58e6b344b5e76eb5e178959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fc578140fb7b20283e5365b9bc507de') in 0.001253 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 8.498401 seconds.
+  path: Assets/Scripts/ScriptableObjects/z_Sign.asset
+  artifactKey: Guid(03d4d2fea58e6b344b5e76eb5e178959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScriptableObjects/z_Sign.asset using Guid(03d4d2fea58e6b344b5e76eb5e178959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '551cec5a2ae868015e875f20770448b6') in 0.001610 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 29.885864 seconds.
+  path: Assets/Scripts/ScriptableObjects/b_Sign 1.asset
+  artifactKey: Guid(8e49684fa2a9ca74897f64a4a1b4f2ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScriptableObjects/b_Sign 1.asset using Guid(8e49684fa2a9ca74897f64a4a1b4f2ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b02a0340719a056f286268f6bf494362') in 0.001246 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 8.570740 seconds.
+  path: Assets/Scripts/ScriptableObjects/y_Sign.asset
+  artifactKey: Guid(8e49684fa2a9ca74897f64a4a1b4f2ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScriptableObjects/y_Sign.asset using Guid(8e49684fa2a9ca74897f64a4a1b4f2ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dd3be94823c49be592b563684aa5ce7') in 0.001331 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 458.378054 seconds.
+  path: Assets/Scripts/ScriptableObjects/c_Sign.asset
+  artifactKey: Guid(c8575e3494a8b4c41ad31f597851195c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScriptableObjects/c_Sign.asset using Guid(c8575e3494a8b4c41ad31f597851195c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c90f2f0ede6d698a599ec1cb7d51ef06') in 0.001502 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Scripts/ScriptableObjects/e_Sign.asset
+  artifactKey: Guid(f05578f522787984f84f4a9f81dcaeb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScriptableObjects/e_Sign.asset using Guid(f05578f522787984f84f4a9f81dcaeb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '432263fe8047037a52d20d55c2905694') in 0.000926 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 292.006568 seconds.
+  path: Assets/Scripts/ScriptableObjects/g_Sign.asset
+  artifactKey: Guid(0b3d6201d55cb554f9c1824ebe6e8765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScriptableObjects/g_Sign.asset using Guid(0b3d6201d55cb554f9c1824ebe6e8765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2047e753c77cf9a5aa867cd66fabf014') in 0.001481 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007493 seconds.
+  path: Assets/Scripts/ScriptableObjects/k_Sign.asset
+  artifactKey: Guid(95d86e6d457a01f43941c5f5b88abf3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScriptableObjects/k_Sign.asset using Guid(95d86e6d457a01f43941c5f5b88abf3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0d853f14c3bf4fbd948cea5f6e245d7') in 0.002508 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Scripts/ScriptableObjects/n_Sign.asset
+  artifactKey: Guid(72e47868bbc621c46ba6e9cc8ca48a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScriptableObjects/n_Sign.asset using Guid(72e47868bbc621c46ba6e9cc8ca48a99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '966eb72f71f94f8c87fc3d158eb92709') in 0.001549 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Scripts/ScriptableObjects/p_Sign.asset
+  artifactKey: Guid(737dd1360b9ed0b49bcb9355cb454c6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScriptableObjects/p_Sign.asset using Guid(737dd1360b9ed0b49bcb9355cb454c6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c1ae43c104444c341fc1d701a393229') in 0.001037 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Scripts/ScriptableObjects/t_Sign.asset
+  artifactKey: Guid(7819dc2b987c0d44d95953294b5ae0d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScriptableObjects/t_Sign.asset using Guid(7819dc2b987c0d44d95953294b5ae0d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c583d54a03426f169bc4fede2f3ee92a') in 0.001105 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Scripts/ScriptableObjects/w_Sign.asset
+  artifactKey: Guid(88b27cfac9d523f46b86408ceeefa7ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScriptableObjects/w_Sign.asset using Guid(88b27cfac9d523f46b86408ceeefa7ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bafb50cc1a33f06fb11f7f46f195aaf') in 0.001164 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Scripts/ScriptableObjects/z_Sign.asset
+  artifactKey: Guid(03d4d2fea58e6b344b5e76eb5e178959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScriptableObjects/z_Sign.asset using Guid(03d4d2fea58e6b344b5e76eb5e178959) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49056460c032f3fc9a490c58aa528955') in 0.001105 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Scripts/ScriptableObjects/q_Sign.asset
+  artifactKey: Guid(7fc56bab6b54f7f49b9e03d698e32252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScriptableObjects/q_Sign.asset using Guid(7fc56bab6b54f7f49b9e03d698e32252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66bb2eb601668267633c0aacb640ee22') in 0.001097 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/Scripts/ScriptableObjects/x_Sign.asset
+  artifactKey: Guid(a63c285760a9a54499ba96efbe9f744d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScriptableObjects/x_Sign.asset using Guid(a63c285760a9a54499ba96efbe9f744d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cc02b505e33693539edfe3765228316') in 0.000931 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Scripts/ScriptableObjects/m_Sign.asset
+  artifactKey: Guid(790ee28dc81be6a4ba19f56179045517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScriptableObjects/m_Sign.asset using Guid(790ee28dc81be6a4ba19f56179045517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f9e13bb5684c38e2a57e533b6d61fda') in 0.001101 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Scripts/ScriptableObjects/u_Sign.asset
+  artifactKey: Guid(878814a5429b1ef42b6a292d81d2f95a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScriptableObjects/u_Sign.asset using Guid(878814a5429b1ef42b6a292d81d2f95a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72c2dfcf563a690be54c576c9d7f8cd7') in 0.001074 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 109.744846 seconds.
+  path: Assets/Images/x_image.png
+  artifactKey: Guid(0ae1371746c17ae4bb978e653c5dd067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/x_image.png using Guid(0ae1371746c17ae4bb978e653c5dd067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0e7f03d039e47a6dd203dbca7121c89') in 0.019967 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 9.241509 seconds.
+  path: Assets/Images/x_image.png
+  artifactKey: Guid(0ae1371746c17ae4bb978e653c5dd067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/x_image.png using Guid(0ae1371746c17ae4bb978e653c5dd067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '450512e853fe5c5322c79503ba690837') in 0.021001 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 145.599109 seconds.
+  path: Assets/MixedRealityToolkit.Generated/ProjectPreferences.asset
+  artifactKey: Guid(5188c8c5d3a5a3c4aaf8d5cad2db88c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MixedRealityToolkit.Generated/ProjectPreferences.asset using Guid(5188c8c5d3a5a3c4aaf8d5cad2db88c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '721f297e5450da572a1a77a16d4811d9') in 0.004389 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 3.986128 seconds.
+  path: Assets/XR/XRGeneralSettingsPerBuildTarget.asset
+  artifactKey: Guid(96c3589ef8ec9f9448c92cf1df7be122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/XRGeneralSettingsPerBuildTarget.asset using Guid(96c3589ef8ec9f9448c92cf1df7be122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c726cb8ed510426fa845a1f552975dbb') in 0.008238 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 7.473471 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.tools
+  artifactKey: Guid(083aed271aeaa3df4a16fd8970555918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.tools using Guid(083aed271aeaa3df4a16fd8970555918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7811337ba473e08fce45786fa7b5c8d') in 0.000399 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
 ========================================================================
-Received Prepare
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory is not a mono symbol file
-- Loaded All Assemblies, in  0.499 seconds
-Refreshing native plugins compatible for Editor in 15.97 ms, found 12 plugins.
-Native extension for WindowsStandalone target not found
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-Mono: successfully reloaded assembly
-[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
-[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
-[Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  1.110 seconds
-Domain Reload Profiling: 1603ms
-	BeginReloadAssembly (153ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (38ms)
-	RebuildCommonClasses (31ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (28ms)
-	LoadAllAssembliesAndSetupDomain (270ms)
-		LoadAssemblies (328ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (19ms)
-			TypeCache.Refresh (8ms)
-				TypeCache.ScanAssembly (0ms)
-			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (1110ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (540ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (6ms)
-			SetLoadedEditorAssemblies (5ms)
-			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (103ms)
-			ProcessInitializeOnLoadAttributes (381ms)
-			ProcessInitializeOnLoadMethodAttributes (35ms)
-			AfterProcessingInitializeOnLoad (10ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (6ms)
-Refreshing native plugins compatible for Editor in 16.72 ms, found 12 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5118 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 72 unused Assets / (56.8 KB). Loaded Objects now: 5598.
-Memory consumption went from 160.1 MB to 160.1 MB.
-Total: 4.122000 ms (FindLiveObjects: 0.590300 ms CreateObjectMapping: 0.190100 ms MarkObjects: 3.232800 ms  DeleteObjects: 0.108000 ms)
-
-Prepare: number of updated asset objects reloaded= 0
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:CustomObjectIndexerAttribute: 756ad292c208cfabdd7b50bc23989ffe -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
-  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+Received Import Request.
+  Time since last request: 0.044794 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.tools/MRTK.Tools.asmdef
+  artifactKey: Guid(0894cfc12853192419b32e8cb5b453aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.tools/MRTK.Tools.asmdef using Guid(0894cfc12853192419b32e8cb5b453aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd06a25e96c8945fe2dc17bf472dbc7af') in 0.000576 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.010324 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.tools/package.json
+  artifactKey: Guid(a8bd6d6f4b8d7bb4bb30c9d7c3e90849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.tools/package.json using Guid(a8bd6d6f4b8d7bb4bb30c9d7c3e90849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da70ee5365f52ddc0cdf114efd516c31') in 0.001034 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 2.564358 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.tools/AssetSwapUtility
+  artifactKey: Guid(76fd079f5643a0b4d89a167d0a91fff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.tools/AssetSwapUtility using Guid(76fd079f5643a0b4d89a167d0a91fff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '470baca9a3096eb20c3a2b92dadfa8e2') in 0.000809 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.856693 seconds.
+  path: Packages/com.microsoft.mixedreality.toolkit.tools/OptimizeWindow
+  artifactKey: Guid(9c782bc35a2faa542b6e3bcb3bd87ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Packages/com.microsoft.mixedreality.toolkit.tools/OptimizeWindow using Guid(9c782bc35a2faa542b6e3bcb3bd87ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42068255d63ccbf39b9fe1088ecddc04') in 0.000563 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
