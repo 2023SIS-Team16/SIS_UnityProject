@@ -8,4 +8,10 @@ public class SignScriptableObject : ScriptableObject
 {
     public char character;
     public Sprite signSprite;
+    public Animation signAnimation;
+
+    public char getCharacter()
+    {
+        return character;
+    }
 }
