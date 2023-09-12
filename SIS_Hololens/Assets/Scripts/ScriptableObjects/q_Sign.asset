@@ -14,3 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   character: 113
   signSprite: {fileID: 21300000, guid: d37324a0aa569414587b207a73ee3836, type: 3}
+  signAnimation: {fileID: 7400000, guid: 34f6b45fd910c164f8c2fef26aaf3086, type: 2}

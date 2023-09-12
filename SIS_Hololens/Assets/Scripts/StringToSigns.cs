@@ -14,10 +14,11 @@ public class StringToSigns : MonoBehaviour
 
     private float _timer = 0;
     [SerializeField] private float _timeBuffer = 2;
-    
+
     [SerializeField] private Image imageToReplace;
     [SerializeField] private TMP_InputField inputField;
     [SerializeField] private Slider slider;
+    [SerializeField] private Animator animator;
     
     
     
@@ -38,6 +39,7 @@ public class StringToSigns : MonoBehaviour
         if (Input.GetKeyUp("q"))
         {
             SetQueue();
+            
         }
 
         if (_characterQueue.Count > 0 && _timer <= 0)
@@ -49,6 +51,11 @@ public class StringToSigns : MonoBehaviour
         if (_timer > 0)
         {
             _timer = _timer - Time.deltaTime;
+        }
+
+        if(_characterQueue.Count == 0 && _timer <= 0)
+        {
+            animator.CrossFadeInFixedTime("Rest", 0.2f);
         }
     }
     private void ProcessString(String str)
@@ -70,6 +77,7 @@ public class StringToSigns : MonoBehaviour
     {
         char tempChar = (char)_characterQueue.Dequeue();
         imageToReplace.sprite = _charDictionary[tempChar].signSprite;
+        animator.CrossFadeInFixedTime(_charDictionary[tempChar].signAnimation.name, 0.175f);
         Debug.Log(tempChar + " set");
     }
 
