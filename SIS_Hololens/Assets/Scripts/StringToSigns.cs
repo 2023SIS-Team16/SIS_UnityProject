@@ -13,7 +13,7 @@ public class StringToSigns : MonoBehaviour
     private Queue _characterQueue = new Queue();
 
     private float _timer = 0;
-    [SerializeField] private float _timeBuffer = 2;
+    [SerializeField] private float _timeBuffer = 0.8f;
 
     [SerializeField] private Image imageToReplace;
     [SerializeField] private TMP_InputField inputField;
