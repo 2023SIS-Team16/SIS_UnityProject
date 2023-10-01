@@ -10,7 +10,7 @@ public class UDP_Receive : MonoBehaviour
     Thread receiveThread;
     UdpClient client;
     public int port = 5052;
-    public bool startRecieving = true;
+    public bool startReceiving = true;
     public bool printToConsole = false;
     public string data;
 
@@ -30,7 +30,7 @@ public class UDP_Receive : MonoBehaviour
     {
 
         client = new UdpClient(port);
-        while (startRecieving)
+        while (startReceiving)
         {
 
             try

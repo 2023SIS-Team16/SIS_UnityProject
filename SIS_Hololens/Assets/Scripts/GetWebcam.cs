@@ -27,12 +27,11 @@ public class GetWebcam : MonoBehaviour
             frame.SetPixels(_webCamTexture.GetPixels());
             frame.Apply();
             
-            string path = @"F:/temp/UnityTest/";
-            
-            string savePath = path;
-            System.IO.File.WriteAllBytes(savePath + _captureCount.ToString() + ".png", frame.EncodeToPNG());
-            _captureCount++;
-            Debug.Log(_captureCount);
+            // string path = @"F:/temp/UnityTest/";
+            //
+            // string savePath = path;
+            // System.IO.File.WriteAllBytes(savePath + _captureCount.ToString() + ".png", frame.EncodeToPNG());
+            // _captureCount++;
         }
     }
 
