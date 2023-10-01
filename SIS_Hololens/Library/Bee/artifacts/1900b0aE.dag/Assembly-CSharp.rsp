@@ -430,6 +430,7 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.8f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Scripts/ActiveToggle.cs"
 "Assets/Scripts/GetWebcam.cs"
+"Assets/Scripts/PythonConnection/UDP_Receive.cs"
 "Assets/Scripts/SignScriptableObject.cs"
 "Assets/Scripts/SliderRotator.cs"
 "Assets/Scripts/StringToSigns.cs"
