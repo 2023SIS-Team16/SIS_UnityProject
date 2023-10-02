@@ -14,6 +14,9 @@ public class UDP_Send : MonoBehaviour
     [SerializeField] private GetWebcam _getWebcam;
 
     private byte[] _img;
+    private bool send = false;
+    private double counter = 0;
+    [SerializeField] private double delay = 1;
     void Start()
     {
         if (!_getWebcam)
@@ -27,7 +30,15 @@ public class UDP_Send : MonoBehaviour
 
     private void Update()
     {
-        _img =_getWebcam.GetCurrentFrame().EncodeToPNG();
+        counter = counter + Time.deltaTime;
+        if (counter > delay)
+        {
+            _img =_getWebcam.GetCurrentFrame().EncodeToPNG();
+            send = true;
+            counter = 0;
+        }
+        
+
     }
 
     private void OnApplicationQuit()
@@ -49,11 +60,11 @@ public class UDP_Send : MonoBehaviour
         client.Connect("127.0.0.1", port);
         while (startSending)
         {
-                if (_img != null)
-                {
-                    client.Send(_img,port);
-                    //Debug.Log(_img.Length);
-                }
+            if (send != true) continue;
+            if(counter < (delay/2)) continue;
+            client.Send(_img,port);
+            send = false;
+            Debug.Log(_img.Length);
         }
         client.Close();
     }

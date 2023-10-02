@@ -3143,6 +3143,7 @@ MonoBehaviour:
   port: 5052
   startSending: 1
   _getWebcam: {fileID: 1437135451}
+  delay: 6
 --- !u!1 &1489824917
 GameObject:
   m_ObjectHideFlags: 0
