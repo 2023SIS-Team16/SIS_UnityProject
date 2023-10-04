@@ -13,12 +13,13 @@ public class UDP_Send : MonoBehaviour
     public bool startSending = true;
     [SerializeField] private GetWebcam _getWebcam;
 
-    private byte[] _img;
-    private bool send = false;
-    private double counter = 0;
+    [SerializeField] private byte[] _img;
+    private bool _send = false;
+    private double _counter = 0;
     [SerializeField] private double delay = 1;
     void Start()
     {
+        _send = false;
         if (!_getWebcam)
         {
             _getWebcam = GetComponent<GetWebcam>();
@@ -30,15 +31,25 @@ public class UDP_Send : MonoBehaviour
 
     private void Update()
     {
-        counter = counter + Time.deltaTime;
-        if (counter > delay)
+        _counter = _counter + Time.deltaTime;
+        if (_counter > delay)
         {
-            _img =_getWebcam.GetCurrentFrame().EncodeToPNG();
-            send = true;
-            counter = 0;
+            Texture2D tex2D = _getWebcam.GetCurrentFrame();
+            tex2D = Resize(tex2D, tex2D.height/2, tex2D.height/2);
+            _img = tex2D.EncodeToJPG(40);
+            _send = true;
+            _counter = 0;
         }
-        
-
+    }
+    Texture2D Resize(Texture2D texture2D,int targetX,int targetY)
+    {
+        RenderTexture rt=new RenderTexture(targetX, targetY,24);
+        RenderTexture.active = rt;
+        Graphics.Blit(texture2D,rt);
+        Texture2D result=new Texture2D(targetX,targetY);
+        result.ReadPixels(new Rect(0,0,targetX,targetY),0,0);
+        result.Apply();
+        return result;
     }
 
     private void OnApplicationQuit()
@@ -60,10 +71,10 @@ public class UDP_Send : MonoBehaviour
         client.Connect("127.0.0.1", port);
         while (startSending)
         {
-            if (send != true) continue;
-            if(counter < (delay/2)) continue;
-            client.Send(_img,port);
-            send = false;
+            if (_send != true) continue;
+            if(_counter < (delay/2)) continue;
+            client.Send(_img,_img.Length);
+            _send = false;
             Debug.Log(_img.Length);
         }
         client.Close();
