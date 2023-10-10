@@ -16,6 +16,7 @@ public class GetWebcam : MonoBehaviour
         _webCamTexture = new WebCamTexture();
         GetComponent<RawImage>().material.mainTexture = _webCamTexture;
         _webCamTexture.Play();
+        //_cascadeClassifier = new CascadeClassifier(Application.dataPath + @"haarcascade_frontalface_default.xml");
     }
 
     // Update is called once per frame
@@ -26,13 +27,8 @@ public class GetWebcam : MonoBehaviour
             frame = new Texture2D(_webCamTexture.width, _webCamTexture.height);
             frame.SetPixels(_webCamTexture.GetPixels());
             frame.Apply();
-            
-            // string path = @"F:/temp/UnityTest/";
-            //
-            // string savePath = path;
-            // System.IO.File.WriteAllBytes(savePath + _captureCount.ToString() + ".png", frame.EncodeToPNG());
-            // _captureCount++;
         }
+
     }
 
     public Texture2D GetCurrentFrame()
